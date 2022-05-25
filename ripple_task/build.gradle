@@ -49,8 +49,8 @@ dependencies {
     implementation 'com.github.fanyafeng:ripple-tool:0.0.2'
 //    implementation project(path: ':ripple_log')
     implementation 'com.github.fanyafeng:ripple-log:0.0.1'
-    api 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1'
-    api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1'
 }
 
 afterEvaluate {
